@@ -1,1 +1,10 @@
 # cs-320
+
+## How can I ensure that my code, program, or software is functional and secure?
+Writing code is a challenging task, and more challenging is writing testable code. Unit testing is the first line of defense against possible defects, and it ensures to satisfy the functional requirements are met. I have run the test coverage to make sure the unit tests cover most of the code and the result was decent. I have used most of the possible test combinations to test the functional requirements. There is not much security involved in this project. I did follow the code standard and practices to improve the code quality, which helps to improve the security of the application. 
+
+## How do I interpret user needs and incorporate them into a program?
+The first step is to clearly understand the requirements that can take more than a single reading. Then, I make a list of all possible combinations of the input data based on the requirements. This also includes edge cases. For example, if the requirement of username is 20 characters maximum, the possible test data can be empty, null, 1 character, 20 characters Unicode characters, and 100 characters. I used the declarative approach to validate the requirement, which I think makes the code more readable and cleaner. 
+
+## How do I approach designing software?
+I would first look into the requirements documents, and clarify them with the business analysts or product owner if any confusion. Then I would break down the requirements into multiple tasks. For every, requirement, I would identify the input data that are needed to accomplish the task and validate against the requirement. I would finally write the testable code based on the task. It is ideal to follow the same coding pattern in every task and reuse any common code. I would write the unit test to cover all the functional code I wrote. Once all tests are passed, I would submit them for QA testing. The steps are straightforward and have worked for me, but they are subject to change based on the project, company, and deadlines. After all, we are working on an agile approach. 
